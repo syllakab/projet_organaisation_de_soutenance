@@ -7,7 +7,7 @@ class Modele extends PDO {
     
     public static function getInstance()
     {
-        include_once '../controller/configuration.php';
+        include_once '../controller/configurationlocale.php';
 
         $options = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
 
