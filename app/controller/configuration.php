@@ -1,6 +1,6 @@
 <?php
 
-$dsn = '#';
+$dsn = 'mysql:dbname=#;host=localhost;charset=utf8';
 $username = '#';
 $password = '#'; 
 
